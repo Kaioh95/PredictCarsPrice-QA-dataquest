@@ -9,13 +9,14 @@ Para executar o projeto foi necessário importar a bibliotecas Matplotlib, Sklea
 
 Primeiramente verificamos a qualidade do nosso código executando o seguinte códido:
 `pylint mission155solutions.py`
-<center><img width="400" src="img/beforeRefactor"></img></center>
+<center><img width="400" src="img/beforeRefactor.png"></img></center>
 
 Após verificar a nota de qualidade que o script recebeu executamos o autopep8 para refatorar o código de forma automatizada.
-```autopep8 --in-place --agressive --aggressive mission155solutions.py```
+
+`autopep8 --in-place --agressive --aggressive mission155solutions.py`
 
 Em seguida verificamos novamente a nota do script:
 
-<center><img width="400" src="img/afterRefactor"></img></center>
+<center><img width="400" src="img/afterRefactor.png"></img></center>
 
 Para chegar à nota máxima as alterações restantes foram feitas manualmente. 
